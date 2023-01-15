@@ -1,0 +1,57 @@
+dcl.subscribe('sceneStart');
+
+dcl.addEntity('1');
+dcl.setParent('1', '0');
+dcl.updateEntityComponent('1', 'engine.transform', 1, JSON.stringify({"position":{"x":16,"y":0,"z":0},"rotation":{"x":0,"y":-0.7071067811865475,"z":0,"w":0.7071067811865476},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('2');
+dcl.setParent('2', '1');
+dcl.componentCreated('gltfShape', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"f5b8141f-67d3-4392-a8c7-20caaef2a3d7/FloorBaseDirt_02/FloorBaseDirt_02.glb"}));
+dcl.attachEntityComponent('2', 'engine.shape', 'gltfShape');
+dcl.updateEntityComponent('2', 'engine.transform', 1, JSON.stringify({"position":{"x":8,"y":0,"z":8},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('3');
+dcl.setParent('3', '1');
+dcl.updateEntityComponent('3', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":6.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape2', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape2', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"fd9eb4ee-2caa-4fc5-8bd3-bc34288b515e/WaterPatchCurve_01/WaterPatchCurve_01.glb"}));
+dcl.attachEntityComponent('3', 'engine.shape', 'gltfShape2');
+
+dcl.addEntity('4');
+dcl.setParent('4', '1');
+dcl.updateEntityComponent('4', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":14.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape3', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape3', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"8838315c-b7e6-4066-9388-b6aa08f29df8/ChineseFireworks_01/ChineseFireworks_01.glb"}));
+dcl.attachEntityComponent('4', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('5');
+dcl.setParent('5', '1');
+dcl.updateEntityComponent('5', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":1},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape4', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape4', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"aaf9ba7e-b8e3-4f5f-bc47-67a20d516526/ChineseStatueLion_01/ChineseStatueLion_01.glb"}));
+dcl.attachEntityComponent('5', 'engine.shape', 'gltfShape4');
+
+dcl.addEntity('6');
+dcl.setParent('6', '1');
+dcl.updateEntityComponent('6', 'engine.transform', 1, JSON.stringify({"position":{"x":14,"y":0,"z":1},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('6', 'engine.shape', 'gltfShape4');
+
+dcl.addEntity('7');
+dcl.setParent('7', '1');
+dcl.updateEntityComponent('7', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":4},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape5', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape5', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"73d3f8eb-e877-42a6-a221-7b7f9a8c86de/ChineseGong_01/ChineseGate_01.glb"}));
+dcl.attachEntityComponent('7', 'engine.shape', 'gltfShape5');
+
+dcl.addEntity('8');
+dcl.setParent('8', '1');
+dcl.updateEntityComponent('8', 'engine.transform', 1, JSON.stringify({"position":{"x":8,"y":0,"z":11.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape6', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape6', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"d62d02b3-a21c-4c5f-aab2-9c64aa0277f1/HTC_Base/HTC_Base.glb"}));
+dcl.attachEntityComponent('8', 'engine.shape', 'gltfShape6');
+
+dcl.addEntity('9');
+dcl.setParent('9', '1');
+dcl.attachEntityComponent('9', 'engine.shape', 'gltfShape6');
+dcl.updateEntityComponent('9', 'engine.transform', 1, JSON.stringify({"position":{"x":8,"y":0,"z":11.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));

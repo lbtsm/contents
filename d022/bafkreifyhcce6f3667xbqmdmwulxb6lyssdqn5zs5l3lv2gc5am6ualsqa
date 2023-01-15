@@ -1,0 +1,34 @@
+{
+  "display": {
+    "title": "777",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "28,4"
+    ],
+    "base": "28,4"
+  },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "7393413a-7ab2-4d55-9deb-784c01b843e5",
+    "point": {
+      "x": 28,
+      "y": 4
+    },
+    "rotation": "north",
+    "layout": {
+      "rows": 1,
+      "cols": 1
+    }
+  }
+}

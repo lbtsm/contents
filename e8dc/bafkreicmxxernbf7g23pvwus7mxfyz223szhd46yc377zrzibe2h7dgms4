@@ -1,0 +1,19 @@
+dcl.subscribe('sceneStart');
+
+dcl.addEntity('1');
+dcl.setParent('1', '0');
+dcl.updateEntityComponent('1', 'engine.transform', 1, JSON.stringify({"position":{"x":16,"y":0,"z":0},"rotation":{"x":0,"y":-0.7071067811865475,"z":0,"w":0.7071067811865476},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('2');
+dcl.setParent('2', '1');
+dcl.componentCreated('gltfShape', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"c9b17021-765c-4d9a-9966-ce93a9c323d1/FloorBaseGrass_01/FloorBaseGrass_01.glb"}));
+dcl.attachEntityComponent('2', 'engine.shape', 'gltfShape');
+dcl.updateEntityComponent('2', 'engine.transform', 1, JSON.stringify({"position":{"x":8,"y":0,"z":8},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('3');
+dcl.setParent('3', '1');
+dcl.updateEntityComponent('3', 'engine.transform', 1, JSON.stringify({"position":{"x":8,"y":0,"z":8.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape2', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape2', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"1df0496d-1ccf-4529-8d32-35c24afbab44/1x1-1001.glb"}));
+dcl.attachEntityComponent('3', 'engine.shape', 'gltfShape2');

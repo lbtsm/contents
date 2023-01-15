@@ -1,0 +1,16 @@
+{
+  "display": {
+    "title": "road",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
+  "owner": "",
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "base": "0,-17",
+    "parcels": [
+      "0,-17"
+    ]
+  }
+}

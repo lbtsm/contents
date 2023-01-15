@@ -1,0 +1,34 @@
+{
+  "display": {
+    "title": "Sam1",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "150,150"
+    ],
+    "base": "150,150"
+  },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "3f91fafe-b766-467e-b2c5-7ccdc8974e85",
+    "point": {
+      "x": 150,
+      "y": 150
+    },
+    "rotation": "north",
+    "layout": {
+      "rows": 1,
+      "cols": 1
+    }
+  }
+}

@@ -1,0 +1,455 @@
+dcl.subscribe('sceneStart');
+
+dcl.addEntity('1');
+dcl.setParent('1', '0');
+dcl.updateEntityComponent('1', 'engine.transform', 1, JSON.stringify({"position":{"x":32,"y":0,"z":0},"rotation":{"x":0,"y":-0.7071067811865475,"z":0,"w":0.7071067811865476},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('2');
+dcl.setParent('2', '1');
+dcl.componentCreated('gltfShape', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"d727a55b-158d-4506-b102-e1c963953f9c/FloorBaseSand_01/FloorBaseSand_01.glb"}));
+dcl.attachEntityComponent('2', 'engine.shape', 'gltfShape');
+dcl.updateEntityComponent('2', 'engine.transform', 1, JSON.stringify({"position":{"x":8,"y":0,"z":8},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('3');
+dcl.setParent('3', '1');
+dcl.attachEntityComponent('3', 'engine.shape', 'gltfShape');
+dcl.updateEntityComponent('3', 'engine.transform', 1, JSON.stringify({"position":{"x":24,"y":0,"z":8},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('4');
+dcl.setParent('4', '1');
+dcl.attachEntityComponent('4', 'engine.shape', 'gltfShape');
+dcl.updateEntityComponent('4', 'engine.transform', 1, JSON.stringify({"position":{"x":8,"y":0,"z":24},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('5');
+dcl.setParent('5', '1');
+dcl.attachEntityComponent('5', 'engine.shape', 'gltfShape');
+dcl.updateEntityComponent('5', 'engine.transform', 1, JSON.stringify({"position":{"x":24,"y":0,"z":24},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+
+dcl.addEntity('6');
+dcl.setParent('6', '1');
+dcl.updateEntityComponent('6', 'engine.transform', 1, JSON.stringify({"position":{"x":4.5,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape2', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape2', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"647f405c-cb12-436e-8116-321404a898b0/PalmTree_01/PalmTree_01.glb"}));
+dcl.attachEntityComponent('6', 'engine.shape', 'gltfShape2');
+
+dcl.addEntity('7');
+dcl.setParent('7', '1');
+dcl.updateEntityComponent('7', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('7', 'engine.shape', 'gltfShape2');
+
+dcl.addEntity('8');
+dcl.setParent('8', '1');
+dcl.updateEntityComponent('8', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":25},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape3', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape3', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"7f2dbcb5-40f5-4e2f-9409-1886d26ce068/FloorBlock_05/FloorBlock_05.glb"}));
+dcl.attachEntityComponent('8', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('9');
+dcl.setParent('9', '1');
+dcl.updateEntityComponent('9', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":23},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('9', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('10');
+dcl.setParent('10', '1');
+dcl.updateEntityComponent('10', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":23},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('10', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('11');
+dcl.setParent('11', '1');
+dcl.updateEntityComponent('11', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('11', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('12');
+dcl.setParent('12', '1');
+dcl.updateEntityComponent('12', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":17},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('12', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('13');
+dcl.setParent('13', '1');
+dcl.updateEntityComponent('13', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":17},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('13', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('14');
+dcl.setParent('14', '1');
+dcl.updateEntityComponent('14', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":17},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('14', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('15');
+dcl.setParent('15', '1');
+dcl.updateEntityComponent('15', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":17},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('15', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('16');
+dcl.setParent('16', '1');
+dcl.updateEntityComponent('16', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":21},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('16', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('17');
+dcl.setParent('17', '1');
+dcl.updateEntityComponent('17', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":15},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('17', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('18');
+dcl.setParent('18', '1');
+dcl.updateEntityComponent('18', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":19},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('18', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('19');
+dcl.setParent('19', '1');
+dcl.updateEntityComponent('19', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":15},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('19', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('20');
+dcl.setParent('20', '1');
+dcl.updateEntityComponent('20', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":31},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('20', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('21');
+dcl.setParent('21', '1');
+dcl.updateEntityComponent('21', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":19},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('21', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('22');
+dcl.setParent('22', '1');
+dcl.updateEntityComponent('22', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":29},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('22', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('23');
+dcl.setParent('23', '1');
+dcl.updateEntityComponent('23', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":21},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('23', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('24');
+dcl.setParent('24', '1');
+dcl.updateEntityComponent('24', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":15},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('24', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('25');
+dcl.setParent('25', '1');
+dcl.updateEntityComponent('25', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":31},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('25', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('26');
+dcl.setParent('26', '1');
+dcl.updateEntityComponent('26', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":15},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('26', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('27');
+dcl.setParent('27', '1');
+dcl.updateEntityComponent('27', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":31},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('27', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('28');
+dcl.setParent('28', '1');
+dcl.updateEntityComponent('28', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('28', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('29');
+dcl.setParent('29', '1');
+dcl.updateEntityComponent('29', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":31},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('29', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('30');
+dcl.setParent('30', '1');
+dcl.updateEntityComponent('30', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":25},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('30', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('31');
+dcl.setParent('31', '1');
+dcl.updateEntityComponent('31', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":31},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('31', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('32');
+dcl.setParent('32', '1');
+dcl.updateEntityComponent('32', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":23},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('32', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('33');
+dcl.setParent('33', '1');
+dcl.updateEntityComponent('33', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":29},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('33', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('34');
+dcl.setParent('34', '1');
+dcl.updateEntityComponent('34', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":21},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('34', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('35');
+dcl.setParent('35', '1');
+dcl.updateEntityComponent('35', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('35', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('36');
+dcl.setParent('36', '1');
+dcl.updateEntityComponent('36', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('36', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('37');
+dcl.setParent('37', '1');
+dcl.updateEntityComponent('37', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":29},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('37', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('38');
+dcl.setParent('38', '1');
+dcl.updateEntityComponent('38', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('38', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('39');
+dcl.setParent('39', '1');
+dcl.updateEntityComponent('39', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('39', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('40');
+dcl.setParent('40', '1');
+dcl.updateEntityComponent('40', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('40', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('41');
+dcl.setParent('41', '1');
+dcl.updateEntityComponent('41', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":31},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('41', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('42');
+dcl.setParent('42', '1');
+dcl.updateEntityComponent('42', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":29},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('42', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('43');
+dcl.setParent('43', '1');
+dcl.updateEntityComponent('43', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('43', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('44');
+dcl.setParent('44', '1');
+dcl.updateEntityComponent('44', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":29},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('44', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('45');
+dcl.setParent('45', '1');
+dcl.updateEntityComponent('45', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":15},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('45', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('46');
+dcl.setParent('46', '1');
+dcl.updateEntityComponent('46', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":29},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('46', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('47');
+dcl.setParent('47', '1');
+dcl.updateEntityComponent('47', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":29},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('47', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('48');
+dcl.setParent('48', '1');
+dcl.updateEntityComponent('48', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('48', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('49');
+dcl.setParent('49', '1');
+dcl.updateEntityComponent('49', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":15},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('49', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('50');
+dcl.setParent('50', '1');
+dcl.updateEntityComponent('50', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('50', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('51');
+dcl.setParent('51', '1');
+dcl.updateEntityComponent('51', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('51', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('52');
+dcl.setParent('52', '1');
+dcl.updateEntityComponent('52', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('52', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('53');
+dcl.setParent('53', '1');
+dcl.updateEntityComponent('53', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('53', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('54');
+dcl.setParent('54', '1');
+dcl.updateEntityComponent('54', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":25},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('54', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('55');
+dcl.setParent('55', '1');
+dcl.updateEntityComponent('55', 'engine.transform', 1, JSON.stringify({"position":{"x":13,"y":0,"z":16.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('55', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('56');
+dcl.setParent('56', '1');
+dcl.updateEntityComponent('56', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":21},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('56', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('57');
+dcl.setParent('57', '1');
+dcl.updateEntityComponent('57', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":25},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('57', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('58');
+dcl.setParent('58', '1');
+dcl.updateEntityComponent('58', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":31},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('58', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('59');
+dcl.setParent('59', '1');
+dcl.updateEntityComponent('59', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":19},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('59', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('60');
+dcl.setParent('60', '1');
+dcl.updateEntityComponent('60', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":23},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('60', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('61');
+dcl.setParent('61', '1');
+dcl.updateEntityComponent('61', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":23},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('61', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('62');
+dcl.setParent('62', '1');
+dcl.updateEntityComponent('62', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":19},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('62', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('63');
+dcl.setParent('63', '1');
+dcl.updateEntityComponent('63', 'engine.transform', 1, JSON.stringify({"position":{"x":9,"y":0,"z":21},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('63', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('64');
+dcl.setParent('64', '1');
+dcl.updateEntityComponent('64', 'engine.transform', 1, JSON.stringify({"position":{"x":7,"y":0,"z":25},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('64', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('65');
+dcl.setParent('65', '1');
+dcl.updateEntityComponent('65', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":25},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('65', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('66');
+dcl.setParent('66', '1');
+dcl.updateEntityComponent('66', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":17},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('66', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('67');
+dcl.setParent('67', '1');
+dcl.updateEntityComponent('67', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":19},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('67', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('68');
+dcl.setParent('68', '1');
+dcl.updateEntityComponent('68', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":21},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('68', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('69');
+dcl.setParent('69', '1');
+dcl.updateEntityComponent('69', 'engine.transform', 1, JSON.stringify({"position":{"x":5,"y":0,"z":23},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('69', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('70');
+dcl.setParent('70', '1');
+dcl.updateEntityComponent('70', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":15},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('70', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('71');
+dcl.setParent('71', '1');
+dcl.updateEntityComponent('71', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":25},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('71', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('72');
+dcl.setParent('72', '1');
+dcl.updateEntityComponent('72', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":17},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('72', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('73');
+dcl.setParent('73', '1');
+dcl.updateEntityComponent('73', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":23},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('73', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('74');
+dcl.setParent('74', '1');
+dcl.updateEntityComponent('74', 'engine.transform', 1, JSON.stringify({"position":{"x":1,"y":0,"z":19},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('74', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('75');
+dcl.setParent('75', '1');
+dcl.updateEntityComponent('75', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":21},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('75', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('76');
+dcl.setParent('76', '1');
+dcl.updateEntityComponent('76', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":19},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('76', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('77');
+dcl.setParent('77', '1');
+dcl.updateEntityComponent('77', 'engine.transform', 1, JSON.stringify({"position":{"x":3,"y":0,"z":17},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('77', 'engine.shape', 'gltfShape3');
+
+dcl.addEntity('78');
+dcl.setParent('78', '1');
+dcl.updateEntityComponent('78', 'engine.transform', 1, JSON.stringify({"position":{"x":26,"y":0,"z":8.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape4', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape4', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"29f358ec-1a23-4cfa-b90e-1907a0fd9406/Theatre_01/Theatre_01.glb"}));
+dcl.attachEntityComponent('78', 'engine.shape', 'gltfShape4');
+
+dcl.addEntity('79');
+dcl.setParent('79', '1');
+dcl.updateEntityComponent('79', 'engine.transform', 1, JSON.stringify({"position":{"x":2.5,"y":0,"z":22.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('79', 'engine.shape', 'gltfShape2');
+
+dcl.addEntity('80');
+dcl.setParent('80', '1');
+dcl.updateEntityComponent('80', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":32},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape5', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape5', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"3bb3f823-e27a-4f4b-9a0f-fe046cb8a57d/Store_02/Store_02.glb"}));
+dcl.attachEntityComponent('80', 'engine.shape', 'gltfShape5');
+
+dcl.addEntity('81');
+dcl.setParent('81', '1');
+dcl.updateEntityComponent('81', 'engine.transform', 1, JSON.stringify({"position":{"x":2.5,"y":0,"z":28},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape6', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape6', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"622c9a64-8acc-4c24-bcf3-d9cd740a9c20/Pond_02/Pond_02.glb"}));
+dcl.attachEntityComponent('81', 'engine.shape', 'gltfShape6');
+
+dcl.addEntity('82');
+dcl.setParent('82', '1');
+dcl.updateEntityComponent('82', 'engine.transform', 1, JSON.stringify({"position":{"x":11,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape7', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape7', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"bc789145-d689-4559-a1ff-71c2da79b7de/Canopy_01/Canopy_01.glb"}));
+dcl.attachEntityComponent('82', 'engine.shape', 'gltfShape7');
+
+dcl.addEntity('83');
+dcl.setParent('83', '1');
+dcl.updateEntityComponent('83', 'engine.transform', 1, JSON.stringify({"position":{"x":11.5,"y":0,"z":27.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape8', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape8', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"27cfd632-905a-4659-81cb-62a9e3c0d0ba/Chair_05/Chair_05.glb"}));
+dcl.attachEntityComponent('83', 'engine.shape', 'gltfShape8');
+
+dcl.addEntity('84');
+dcl.setParent('84', '1');
+dcl.updateEntityComponent('84', 'engine.transform', 1, JSON.stringify({"position":{"x":11.5,"y":0,"z":26},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('84', 'engine.shape', 'gltfShape8');
+
+dcl.addEntity('85');
+dcl.setParent('85', '1');
+dcl.updateEntityComponent('85', 'engine.transform', 1, JSON.stringify({"position":{"x":9.5,"y":0,"z":27},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape9', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape9', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"9d9c165d-3aaa-44ae-89f6-20d977122fce/Table_04/Table_04.glb"}));
+dcl.attachEntityComponent('85', 'engine.shape', 'gltfShape9');
+
+dcl.addEntity('86');
+dcl.setParent('86', '1');
+dcl.updateEntityComponent('86', 'engine.transform', 1, JSON.stringify({"position":{"x":2,"y":0,"z":20},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.componentCreated('gltfShape10', 'engine.shape', 54);
+dcl.componentUpdated('gltfShape10', JSON.stringify({"withCollisions":true,"isPointerBlocker":true,"visible":true,"src":"8bbdfe3a-8a61-4e93-9809-1d5e8d92f17a/TableBar_01/TableBar_01.glb"}));
+dcl.attachEntityComponent('86', 'engine.shape', 'gltfShape10');
+
+dcl.addEntity('87');
+dcl.setParent('87', '1');
+dcl.updateEntityComponent('87', 'engine.transform', 1, JSON.stringify({"position":{"x":2.5,"y":0,"z":18.5},"rotation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1}}));
+dcl.attachEntityComponent('87', 'engine.shape', 'gltfShape8');

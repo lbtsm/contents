@@ -1,0 +1,116 @@
+// let plaza = new Entity()
+//
+// const xPos = 20 * 16 /2;
+// const zPos = 19 * 16 /2;
+//
+// plaza.addComponent(new Transform({
+//   position: new Vector3(xPos,0,zPos)
+// }))
+// // plaza.addComponent(new GLTFShape("models/Game_Center.glb"))
+//
+// plaza.addComponent(new GLTFShape("models/Event_Center.glb"))
+//
+// // plaza.addComponent(new GLTFShape("models/Fashion_Center.glb"))
+// // plaza.addComponent(new GLTFShape("models/Financial_Center.glb"))
+// let plaza1 = new Entity()
+// plaza1.addComponent(new GLTFShape("models/NFT_Center.glb"))
+//
+// engine.addEntity(plaza)
+// engine.addEntity(plaza1)
+
+let centralParkCenter = new Entity();
+
+
+centralParkCenter.addComponent(new Transform({
+  position: new Vector3(8,0,8)
+}))
+
+centralParkCenter.addComponent(new GLTFShape("models/Central_Park_Center.glb"))
+
+engine.addEntity(centralParkCenter)
+
+let centralParkNorth = new Entity();
+
+centralParkNorth.addComponent(new Transform({
+  position: new Vector3(8,0,8)
+  // scale: new Vector3().set(1, 1, 0.9)
+}))
+
+centralParkNorth.addComponent(new GLTFShape("models/Central_Park_North.glb"))
+
+engine.addEntity(centralParkNorth)
+
+let centralParkSouth = new Entity();
+
+centralParkSouth.addComponent(new Transform({
+  position: new Vector3(8,0,8)
+}))
+
+centralParkSouth.addComponent(new GLTFShape("models/Central_Park_South.glb"))
+
+engine.addEntity(centralParkSouth)
+
+let centralParkWest = new Entity();
+
+centralParkWest.addComponent(new Transform({
+  position: new Vector3(8,0,8)
+  // scale: new Vector3().set(0.9, 1, 0.8)
+}))
+
+centralParkWest.addComponent(new GLTFShape("models/Central_Park_West.glb"))
+
+engine.addEntity(centralParkWest)
+
+let centralParkEast = new Entity();
+
+centralParkEast.addComponent(new Transform({
+  position: new Vector3(8,0,8)
+}))
+
+centralParkEast.addComponent(new GLTFShape("models/Central_Park_East.glb"))
+
+engine.addEntity(centralParkEast)
+
+let eventCenter = new Entity();
+eventCenter.addComponent(new Transform({
+  position: new Vector3(-10 * 16,0,-9 * 16),
+  scale: new Vector3().set(0.9, 1, 1)
+}))
+
+// eventCenter.addComponent(new GLTFShape("models/Event_Center.glb"))
+eventCenter.addComponent(new GLTFShape("models/DAO_Center.glb"))
+engine.addEntity(eventCenter)
+
+let communityCenter = new Entity()
+
+communityCenter.addComponent(new Transform({
+  position: new Vector3(-9.5 * 16,0,10.5 * 16),
+  scale: new Vector3().set(0.9, 1, 0.9)
+}))
+
+// communityCenter.addComponent(new GLTFShape("models/Community_Center.glb"))
+communityCenter.addComponent(new GLTFShape("models/NFT_Center.glb"))
+
+engine.addEntity(communityCenter)
+
+let daoCenter = new Entity();
+
+daoCenter.addComponent(new Transform({
+  position: new Vector3(10.5 * 16,0,10.5 * 16)
+}))
+
+// daoCenter.addComponent(new GLTFShape("models/DAO_Center.glb"))
+daoCenter.addComponent(new GLTFShape("models/Event_Center.glb"))
+
+engine.addEntity(daoCenter)
+
+let nftCenter = new Entity();
+
+nftCenter.addComponent(new Transform({
+  position: new Vector3(10.5 * 16,0,-9.5 * 16),
+  scale: new Vector3(0.9, 1, 0.9)
+}))
+
+// nftCenter.addComponent(new GLTFShape("models/NFT_Center.glb"))
+nftCenter.addComponent(new GLTFShape("models/Community_Center.glb"))
+engine.addEntity(nftCenter)
